@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-cotainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 2px solid black;
+    /* position: fixed;  */
+    inset: 0px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: red;
+
+}
+.flex-container-inline{
+    display: flex;
+    /* background-color: green; */
+}
+.flex-container-inline div{
+
+    flex-grow: 1;
+    height: 20vh;
+    width: 10vw;
+    border: 2px solid black;
+    text-align: center;
+    font-size: xxx-large;
+}
+#FormDisplayDiv{
+    padding: 25%;
+}
+dialog{
+    position: fixed; 
+    top: 45%;
+    left: 45%; 
+}
